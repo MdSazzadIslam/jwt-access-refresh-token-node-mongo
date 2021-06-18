@@ -14,7 +14,7 @@ Tech
 
 3.The client (Front end) will store refresh token in his in cookies or localstorage.
 
-4.The client will use an access token for calling APIs. But when it expires, pick the refresh token from local storage and call auth server API to get the new token.
+4.The client will use an access token for calling APIs. But when it expires, pick the refresh token from local storage or cookies and call auth server API to get the new token.
 
 5.Your auth server will have an API exposed which will accept refresh token and checks for its validity and return a new access token.
 
