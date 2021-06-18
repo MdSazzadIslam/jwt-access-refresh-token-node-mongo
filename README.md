@@ -1,5 +1,5 @@
 
-# jwt-access-refresh-token-node-mongo
+# jwt-access-refresh-token-node-mongo-redis
 
 Don't forget to give this repo a ⭐ if you like and want to appreciate my efforts
 
