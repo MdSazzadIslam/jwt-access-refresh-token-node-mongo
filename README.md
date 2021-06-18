@@ -10,7 +10,7 @@ Tech
 
 2.The access token will have less expiry time and Refresh will have long expiry time.
 
-3.The client (Front end) will store refresh token in his in cookies.
+3.The client (Front end) will store refresh token in his in cookies or localstorage.
 
 4.The client will use an access token for calling APIs. But when it expires, pick the refresh token from local storage and call auth server API to get the new token.
 
