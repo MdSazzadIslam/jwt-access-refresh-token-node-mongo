@@ -103,9 +103,6 @@ exports.registration = async (req, res, next) => {
       const user = await UserService.registration(newUser);
 
       if (user) {
-        var aToken = await accessToken(userExists._id);
-        var rToken = await refreshToken(userExists._id);
-
         res.status(200).send({
           success: true,
           msg: "Register Success",
