@@ -1,6 +1,3 @@
-
-
-
 # jwt-access-refresh-token-node-mongo-redis
 
 Don't forget to give this repo a ⭐ if you like and want to appreciate my efforts
@@ -31,6 +28,8 @@ Tech
 ![redis](https://user-images.githubusercontent.com/63356649/122560717-be1ee400-d062-11eb-962f-8c24ccd3e949.JPG)
 
 ![Refres](https://user-images.githubusercontent.com/63356649/122563487-160b1a00-d066-11eb-88b1-e15ed462d7d5.JPG)
+
+![privateRoute](https://user-images.githubusercontent.com/63356649/122563832-7dc16500-d066-11eb-8a7d-936b48d24ee2.JPG)
 
 Don't forget to give this repo a ⭐ if you like and want to appreciate my efforts
 
