@@ -1,5 +1,7 @@
 # jwt-access-refresh-token-node-mongo
 
+Don't forget to give this repo a ⭐ if you like and want to appreciate my efforts
+
 Tech
 1. JWT
 2. Redis
@@ -17,3 +19,6 @@ Tech
 5.Your auth server will have an API exposed which will accept refresh token and checks for its validity and return a new access token.
 
 6.Once the refresh token is expired, the User will be logged out.
+
+
+Don't forget to give this repo a ⭐ if you like and want to appreciate my efforts
