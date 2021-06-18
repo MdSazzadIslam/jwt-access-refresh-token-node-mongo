@@ -7,7 +7,7 @@ const verifyRefreshToken = require("../middlewares/verifyRefreshToken");
 
 router.post("/login", userController.login);
 router.post("/registration", userController.registration);
-router.post("/token", userController.token);
+router.post("/token", verifyRefreshToken, userController.token);
 router.post("/logout", verifyAccessToken, userController.logout);
 router.get("/", verifyAccessToken, userController.getAll);
 module.exports = router;

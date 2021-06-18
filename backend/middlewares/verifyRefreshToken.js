@@ -17,7 +17,7 @@ const verifyRefreshToken = (req, res, next) => {
     const decoded = jwt.verify(token, process.env.REFRESH_TOKEN_SECRET);
 
     // verify if token is in store or not
-    redisClient.get(decoded.id.toSting(), (err, data) => {
+    redisClient.get(decoded.id, (err, data) => {
       if (err) throw err;
 
       if (data === null)
